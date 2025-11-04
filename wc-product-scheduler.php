@@ -1,10 +1,12 @@
 <?php
 /**
- * Plugin Name: WooCommerce Product Scheduler
+ * Plugin Name: Product Scheduler for WooCommerce
  * Description: Programa la publicación y despublicación automática de productos de WooCommerce
  * Version: 1.4.0
  * Author: Disma Consultores
  * Author URI: https://dismaconsultores.com
+ * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: wc-product-scheduler
  * Domain Path: /languages
  * Requires at least: 5.8

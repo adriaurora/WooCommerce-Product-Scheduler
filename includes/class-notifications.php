@@ -54,6 +54,7 @@ class WC_Product_Scheduler_Notifications {
         $current_time = current_time('d/m/Y H:i');
 
         // Asunto del email
+        /* translators: %s: Site name */
         $subject = sprintf(
             __('[%s] Producto despublicado automáticamente', 'wc-product-scheduler'),
             get_bloginfo('name')
@@ -94,6 +95,7 @@ class WC_Product_Scheduler_Notifications {
         $current_time = current_time('d/m/Y H:i');
 
         // Asunto del email
+        /* translators: %s: Site name */
         $subject = sprintf(
             __('[%s] Producto publicado automáticamente', 'wc-product-scheduler'),
             get_bloginfo('name')
